@@ -17,19 +17,10 @@ public class PlayerController : MonoBehaviour
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
         transform.position += moveDir *moveSpeed * Time.deltaTime;
 
-        // float rotateSpeed = 10f;
-        // transform.forward = Vector3.Slerp(transform.forward ,  moveDir, Time.deltaTime * rotateSpeed);
+        float rotateSpeed = 10f;
+        transform.forward = Vector3.Slerp(transform.forward ,  moveDir, Time.deltaTime * rotateSpeed);
 
         MovementAnimationHandler();
-        MovementRotationHandler();
-    }
-
-    private void MovementRotationHandler()
-    {
-        Vector3 currentPosition = transform.position;
-        Vector3 newPosition = new Vector3(gameInput.inputVector.x, 0f, gameInput.inputVector.y);
-        Vector3 positionToLookAt = currentPosition + newPosition;
-        transform.LookAt(positionToLookAt);
     }
 
     private void MovementAnimationHandler()
