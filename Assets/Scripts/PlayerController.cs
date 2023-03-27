@@ -27,19 +27,19 @@ public class PlayerController : MonoBehaviour
     private void MovementRotationHandler()
     {
         Vector3 currentPosition = transform.position;
-        Vector3 newPosition = new Vector3(GameInput.Instance.inputVector.x, 0f, GameInput.Instance.inputVector.y);
+        Vector3 newPosition = new Vector3(gameInput.inputVector.x, 0f, gameInput.inputVector.y);
         Vector3 positionToLookAt = currentPosition + newPosition;
         transform.LookAt(positionToLookAt);
     }
 
     private void MovementAnimationHandler()
     {
-        if(GameInput.Instance.IsPlayerRunning())
+        if(gameInput.IsPlayerRunning())
         {
             animator.SetBool(IS_RUNNING, true);
         }
 
-        if(!GameInput.Instance.IsPlayerRunning())
+        if(!gameInput.IsPlayerRunning())
         {
             animator.SetBool(IS_RUNNING, false);
         }
