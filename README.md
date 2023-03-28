@@ -17,3 +17,6 @@ and he will have more knowledge about that spesific engineering field.
 # Diagrams
 A short diagram that forms the first glimpse of the theme of our game
 ![EngineeringKnowledgeChatBot drawio](https://user-images.githubusercontent.com/76071161/227041364-b95908d0-52a7-49fc-a61a-7b2edc0528e7.png) 
+
+A main menu mockup for our game concept
+![ERD with colored entities (UML notation)](https://user-images.githubusercontent.com/76071161/228144290-1fa8e3da-0599-472e-912c-1cc33f583acb.png)
