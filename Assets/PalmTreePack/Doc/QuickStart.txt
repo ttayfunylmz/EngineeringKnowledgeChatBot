@@ -1,0 +1,33 @@
+Hi
+
+This is the lit version of the "Palm Pack 2022" with only 7 variants
+You can buy the full version:
+- 21 Variants
+- Sample scene
+- Translucency and Wind shaders
+Buy from here:
+https://u3d.as/2MV9
+____________________________________________________________________________
+The tree models has about 7.000 ~ 20.000 tringles
+You can optimize using Simplygon:
+https://www.youtube.com/watch?v=naBApa0_kIk
+
+____________________________________________________________________________
+You can download Easy Mesh Combine tool to see the poly count(trinagles):
+https://assetstore.unity.com/packages/tools/utilities/easy-mesh-combine-tool-211915
+
+____________________________________________________________________________
+Don't forget to rate the asset
+https://u3d.as/2LG2
+
+My other assets:
+https://assetstore.unity.com/publishers/23606
+
+____________________________________________________________________________
+How to use:
+- Install Post Processing package from : Window->Package Manager->Unity Registry
+- Import the package
+- Enjoy it
+
+____________________________________________________________________________
+Note: The screenshots in the asset store page has Enlighten Realtime GI from the full version of the Palm Pack 2022

@@ -35,15 +35,8 @@ public class PlayerController : MonoBehaviour
 
     private void MovementAnimationHandler()
     {
-        if(gameInput.IsPlayerRunning())
-        {
-            animator.SetBool(IS_RUNNING, true);
-        }
-
-        if(!gameInput.IsPlayerRunning())
-        {
-            animator.SetBool(IS_RUNNING, false);
-        }
+        bool isPlayerRunning = gameInput.IsPlayerRunning();
+        animator.SetBool(IS_RUNNING, isPlayerRunning);
     }
 
 
